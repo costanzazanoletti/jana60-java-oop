@@ -48,6 +48,10 @@ public class Prodotto {
     return infoProdotto;
   }
 
+  String infoProdottoFormat(String format) {
+    return String.format(format, marca, nome, formattaPrezzo());
+  }
+
   void setPrezzo(double prezzo) {
     if (prezzo < 0.0) {
       // ritorno un errore o modifico il dato che mi è stato passato
