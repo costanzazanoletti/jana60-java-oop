@@ -25,6 +25,8 @@ public class Main {
       studenti[i] = new Studente(idStudente, percentualeAssenze, mediaVoti);
     }
 
+    studenti[3].idStudente = 1234;
+
     // contatore promossi
     int counter = 0;
     // stampo per ogni studente se è promosso o bocciato
