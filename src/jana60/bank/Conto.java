@@ -9,6 +9,7 @@ public class Conto {
   private double saldo;
   private DecimalFormat currencyFormatter = new DecimalFormat("0.00€");
 
+
   // costruttore
   // alla creazione di un nuovo conto il saldo sia 0€
   public Conto(int numeroConto, String proprietario) {
@@ -17,6 +18,7 @@ public class Conto {
     this.proprietario = proprietario;
     this.saldo = 0.0;
   }
+
 
   // metodi getter e setter
   public String getProprietario() {
