@@ -16,6 +16,7 @@ public class Main {
     squidGame.riproduci();
 
     Serie casaDiCarta = new Serie("La casa di carta", 50);
+    System.out.println(casaDiCarta);
   }
 
 }
