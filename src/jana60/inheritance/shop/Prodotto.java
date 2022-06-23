@@ -4,7 +4,10 @@ import java.text.DecimalFormat;
 
 public class Prodotto {
   // costanti
-  private DecimalFormat df = new DecimalFormat("0.00€");
+  private static DecimalFormat df = new DecimalFormat("0.00€");
+
+  // contatore
+  private static int counter = 0;
 
   // attributi
   private int codice;
@@ -16,11 +19,15 @@ public class Prodotto {
   // costruttori
   public Prodotto(int codice, String nome, String marca, double prezzo, double iva) {
     super();
-    this.codice = codice;
+    counter++;
+
+    this.codice = counter;
     this.nome = nome;
     this.marca = marca;
     this.prezzo = prezzo;
     this.iva = iva;
+
+    System.out.println("Ho creato il prodotto " + counter);
   }
 
   // metodi getter e setter
