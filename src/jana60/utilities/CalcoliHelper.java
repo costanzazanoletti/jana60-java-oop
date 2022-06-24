@@ -7,11 +7,13 @@ public class CalcoliHelper {
     // non fa niente
   }
 
+  // OVERLOAD
   // somma di due interi
   public static int somma(int x, int y) {
     return x + y;
   }
 
+  // OVERLOAD
   // somma di due double
   public static double somma(double x, double y) {
     return x + y;
@@ -30,6 +32,11 @@ public class CalcoliHelper {
   // moltiplicazione tra due interi
   public static int moltiplicazione(int x, int y) {
     return x * y;
+  }
+
+  // divisione tra due interi
+  public static double divisione(int x, int y) {
+    return x / y;
   }
 
   // valore assoluto di un numero intero
