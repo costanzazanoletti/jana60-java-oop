@@ -61,9 +61,10 @@ public class CalcoliHelper {
 
 
   /*
-   * elevo a potenza due numeri interi - se esponente == 0 -> potenza = 1 - se esponente > 0 ->
-   * potenza = base * base * base ... * base (tante volte quanto vale esponnete) - se esponente < 0
-   * -> potenza = 1/base * base * ... * base
+   * elevo a potenza due numeri interi
+   * - se esponente == 0 -> potenza = 1
+   * - se esponente > 0 -> potenza = base * base * base ... * base
+   * - se esponente < 0 -> potenza = 1/base * base * ... * base
    */
   public static double potenza(int base, int esponente) {
     // se esponente == 0 -> potenza = 1

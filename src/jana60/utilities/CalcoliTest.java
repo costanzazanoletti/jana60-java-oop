@@ -24,7 +24,6 @@ public class CalcoliTest {
     System.out.println("massimo: " + CalcoliHelper.massimo(x, y));
 
     scan.close();
-
   }
 
 }
