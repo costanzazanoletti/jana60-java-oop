@@ -8,6 +8,10 @@ import java.util.List;
 public class Main {
 
   public static void main(String[] args) {
+    // comparo due stringhe
+    System.out.println("Compare ape e ciao");
+    System.out.println("zoo".compareTo("zattera"));
+
     // esempi con Collection e List
 
     // creo una lista vuota di stringhe
